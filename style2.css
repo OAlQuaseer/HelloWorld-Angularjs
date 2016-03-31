@@ -1,0 +1,27 @@
+/* Styles go here */
+
+body {
+  margin-left: 10px;
+}
+
+.spring {
+ background-color: green;
+}
+
+.winter {
+ background-color: white;
+}
+
+.fall {
+ background-color: brown;
+}
+
+.summer {
+ background-color: orange;
+}
+
+.container{
+  
+  border:2px solid;
+  padding-left:4px;
+}
