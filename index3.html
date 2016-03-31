@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script data-require="angular.js@1.3.10" data-semver="1.3.10" src="https://code.angularjs.org/1.3.10/angular.js"></script>
+    <script type="text/javascript" src="app3.js"></script>
+  </head>
+
+  <body ng-app="myApp">
+    <h1>Challenge Two</h1>
+    <div ng-controller="myCtrl">
+      
+      <div ng-repeat="number in numbers">
+        <h1 ng-if="number % 5 === 0 && number%3=== 0">FizzBuzz</h1>
+        <h1 ng-if="number % 5 === 0">Buzz</h1>
+        <h1 ng-if="number%3=== 0">Fizz</h1>
+        <h1 ng-if="number % 5 != 0 && number%3 != 0">{{number}}</h1>
+      </div>
+    </div>
+  </body>
+
+</html>
